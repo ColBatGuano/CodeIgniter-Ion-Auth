@@ -6,13 +6,13 @@
 <?php echo form_open("auth/login");?>
 
   <p>
-    <?php echo lang('login_identity_label', 'indentity');?>
+    <?php echo lang('login_identity_label', 'identity');?>
     <?php echo form_input($identity);?>
   </p>
 
   <p>
     <?php echo lang('login_password_label', 'password');?>
-    <?php echo form_input($password);?>
+    <?php echo form_password($password);?>
   </p>
 
   <p>
